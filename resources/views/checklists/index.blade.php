@@ -24,7 +24,7 @@
         <!-- List checklist -->
         <ul class="mt-6">
             @foreach ($items as $item)
-                <li class="flex justify-between border-b py-2">
+                <li class="flex justify-between border-b py-2 text-white">
                     {{ $item->title }}
                 </li>
             @endforeach
