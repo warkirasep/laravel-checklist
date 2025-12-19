@@ -7,4 +7,9 @@ use Illuminate\Database\Eloquent\Model;
 class Checklist extends Model
 {
     //
+    protected $fillable = [
+        'user_id',
+        'title',
+        'is_done'
+    ];
 }
